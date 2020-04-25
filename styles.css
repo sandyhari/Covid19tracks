@@ -1,0 +1,103 @@
+.header {
+  font-family: "Roboto", sans-serif;
+  text-shadow: 5px 5px 10px black;
+}
+
+#containered {
+  box-shadow: 20px 20px 50px 15px grey
+}
+
+#confirm, #dead, #recovery {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+table.tableclass:hover, table.tableclass:active {
+  font-size: 150%;
+}
+
+.trshadow {
+  padding: 5px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.wrap {
+  width: 100%;
+}
+
+.floatleft {
+  float: left;
+  width: 20%;
+  background-color: rgb(245, 255, 250);
+  height: 300px;
+}
+
+.floatright {
+  float: right;
+  height: 300px;
+  width: 80%;
+}
+
+.row {
+  padding: 20px;
+  font: italic 1.2em "Fira Sans", serif;
+}
+
+#searchbox {
+  padding: 20px;
+  font: italic 1.5em "Fira Sans", serif;
+}
+
+.dataclass {
+  padding: 20px;
+  font-family: "Roboto", sans-serif
+}
+
+h5 {
+  font-family: "Roboto", sans-serif
+}
+
+h3 {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif
+}
+
+#headerCountryName {
+  color: rgb(255, 40, 0);
+}
+
+sub {
+  font-family: "Roboto", sans-serif
+}
+
+.numbersRed {
+  padding: 10px;
+  background: rgba(255, 7, 58, .12549);
+  border-radius: 5px;
+  color: rgba(255, 7, 58, .6);
+  position: relative;
+  display: flex;
+  animation-delay: 2s;
+}
+
+.numbersGrey {
+  padding: 10px;
+  background: #908D8D;
+  border-radius: 5px;
+  color: #353232;
+  position: relative;
+  display: flex;
+  animation-delay: 2.1s;
+}
+
+.numbersGreen {
+  padding: 10px;
+  background: #A4F3CA;
+  border-radius: 5px;
+  color: #02582B;
+  position: relative;
+  display: flex;
+  animation-delay: 2.2s;
+}
